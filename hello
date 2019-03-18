@@ -1,2 +1,6 @@
 name="$@"
-echo "Hello $name"
+if [[ -n $name ]]; then
+  echo "Hello $name"
+else
+  echo "Hello World"
+fi
