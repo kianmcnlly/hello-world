@@ -1,1 +1,2 @@
-echo "Hello World"
+name="$@"
+echo "Hello $name"
